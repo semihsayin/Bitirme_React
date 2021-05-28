@@ -20,7 +20,11 @@ function App() {
            <PopularMovies/>
            </Route>
          <Route exact path="/">
-           <Watchlist/>
+         <PopularMovies/>
+
+           </Route>
+           <Route exact path="/watchlist">
+         <Watchlist/>
            </Route>
 
            <Route exact path="/watched">

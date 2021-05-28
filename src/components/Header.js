@@ -14,7 +14,7 @@ const Header = () => {
                            <Link to="/populer-movies">Populer Filmler</Link>
                        </li>
                        <li>
-                           <Link to="/">İzleme Listem</Link>
+                           <Link to="/watchlist">İzleme Listem</Link>
                        </li>
                        <li>
                            <Link to="/watched">İzlediklerim</Link>
